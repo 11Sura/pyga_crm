@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.pyga_crm.genericLib.ListenersImplementation"></listener>
+	    <listener class-name="com.pyga_crm.genericLib.ITransform"></listener>
+	</listeners>
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.pyga.system.InvoiceSystemTest"/>
+      <class name="com.pyga.system.OpportunitySystemTest"/>
+      <class name="com.pyga.system.CampaignSystemTest"/>
+      <class name="com.pyga.system.SalesOrdersSystemTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

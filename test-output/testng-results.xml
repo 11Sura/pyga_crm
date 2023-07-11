@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Vendor is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Vendor is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Organization is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Organization is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Product is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Product is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Contact is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Quote is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Campaign is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Testscript passed]]>
+    </line>
+    <line>
+      <![CDATA[Opportunity is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Testscript passed]]>
+    </line>
+    <line>
+      <![CDATA[Quote is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Sales Order is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Sales Order is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Testscript passed]]>
+    </line>
+    <line>
+      <![CDATA[Invoice is created and verified: PASS]]>
+    </line>
+    <line>
+      <![CDATA[Testscript passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-11T13:17:37 IST" name="Suite" finished-at="2023-07-11T13:18:38 IST" duration-ms="60789">
+    <groups>
+      <group name="regressionTest">
+        <method signature="InvoiceSystemTest.invoiceSystemTest()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" name="invoiceSystemTest" class="com.pyga.system.InvoiceSystemTest"/>
+        <method signature="OpportunitySystemTest.opportunitySystemTest()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" name="opportunitySystemTest" class="com.pyga.system.OpportunitySystemTest"/>
+        <method signature="SalesOrdersSystemTest.salesOrdersSystemTest()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" name="salesOrdersSystemTest" class="com.pyga.system.SalesOrdersSystemTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CampaignSystemTest.campaignSystemTest()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" name="campaignSystemTest" class="com.pyga.system.CampaignSystemTest"/>
+        <method signature="OpportunitySystemTest.opportunitySystemTest()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" name="opportunitySystemTest" class="com.pyga.system.OpportunitySystemTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2023-07-11T13:17:37 IST" name="Test" finished-at="2023-07-11T13:18:38 IST" duration-ms="60789">
+      <class name="com.pyga.system.InvoiceSystemTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:17:37 IST" name="connectToDatabase" finished-at="2023-07-11T13:17:37 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:17:37 IST" name="launchBrowser" finished-at="2023-07-11T13:17:41 IST" duration-ms="3769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:17:41 IST" name="loginToApplication" finished-at="2023-07-11T13:17:47 IST" duration-ms="5896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="invoiceSystemTest()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:17:47 IST" name="invoiceSystemTest" finished-at="2023-07-11T13:18:36 IST" duration-ms="49297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Quote is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Sales Order is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Invoice is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Testscript passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invoiceSystemTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:18:36 IST" name="logoutFromApplication" finished-at="2023-07-11T13:18:38 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:18:38 IST" name="closeBrowser" finished-at="2023-07-11T13:18:38 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.pyga.system.InvoiceSystemTest@1aafa419]" started-at="2023-07-11T13:18:38 IST" name="closeDatabase" finished-at="2023-07-11T13:18:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDatabase -->
+      </class> <!-- com.pyga.system.InvoiceSystemTest -->
+      <class name="com.pyga.system.OpportunitySystemTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" started-at="2023-07-11T13:17:37 IST" name="launchBrowser" finished-at="2023-07-11T13:17:41 IST" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" started-at="2023-07-11T13:17:41 IST" name="loginToApplication" finished-at="2023-07-11T13:17:47 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="opportunitySystemTest()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" started-at="2023-07-11T13:17:47 IST" name="opportunitySystemTest" finished-at="2023-07-11T13:18:19 IST" duration-ms="32087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Contact is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Opportunity is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Testscript passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opportunitySystemTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" started-at="2023-07-11T13:18:19 IST" name="logoutFromApplication" finished-at="2023-07-11T13:18:20 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.pyga.system.OpportunitySystemTest@14cd1699]" started-at="2023-07-11T13:18:20 IST" name="closeBrowser" finished-at="2023-07-11T13:18:20 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.pyga.system.OpportunitySystemTest -->
+      <class name="com.pyga.system.CampaignSystemTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" started-at="2023-07-11T13:17:37 IST" name="launchBrowser" finished-at="2023-07-11T13:17:41 IST" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" started-at="2023-07-11T13:17:41 IST" name="loginToApplication" finished-at="2023-07-11T13:17:47 IST" duration-ms="5865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="campaignSystemTest()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" started-at="2023-07-11T13:17:47 IST" name="campaignSystemTest" finished-at="2023-07-11T13:18:17 IST" duration-ms="30259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Vendor is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Product is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Campaign is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Testscript passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- campaignSystemTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" started-at="2023-07-11T13:18:17 IST" name="logoutFromApplication" finished-at="2023-07-11T13:18:19 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.pyga.system.CampaignSystemTest@73a1e9a9]" started-at="2023-07-11T13:18:19 IST" name="closeBrowser" finished-at="2023-07-11T13:18:19 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.pyga.system.CampaignSystemTest -->
+      <class name="com.pyga.system.SalesOrdersSystemTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" started-at="2023-07-11T13:17:37 IST" name="launchBrowser" finished-at="2023-07-11T13:17:41 IST" duration-ms="3833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" started-at="2023-07-11T13:17:41 IST" name="loginToApplication" finished-at="2023-07-11T13:17:47 IST" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="salesOrdersSystemTest()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" started-at="2023-07-11T13:17:47 IST" name="salesOrdersSystemTest" finished-at="2023-07-11T13:18:33 IST" duration-ms="45864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Vendor is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Product is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Quote is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Sales Order is created and verified: PASS]]>
+            </line>
+            <line>
+              <![CDATA[Testscript passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- salesOrdersSystemTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" started-at="2023-07-11T13:18:33 IST" name="logoutFromApplication" finished-at="2023-07-11T13:18:34 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.pyga.system.SalesOrdersSystemTest@71d44a3]" started-at="2023-07-11T13:18:34 IST" name="closeBrowser" finished-at="2023-07-11T13:18:34 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.pyga.system.SalesOrdersSystemTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

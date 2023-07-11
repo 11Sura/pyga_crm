@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<!--include name="smokeTest"></include-->
+			<include name="regressionTest"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.pyga.system.InvoiceSystemTest"/>
+      <class name="com.pyga.system.OpportunitySystemTest"/>
+      <class name="com.pyga.system.CampaignSystemTest"/>
+      <class name="com.pyga.system.SalesOrdersSystemTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
