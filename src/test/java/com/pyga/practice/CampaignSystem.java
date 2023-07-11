@@ -173,3 +173,4 @@ public class CampaignSystem {
 	}
 
 }
+//end of testscript
