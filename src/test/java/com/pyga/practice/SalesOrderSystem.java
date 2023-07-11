@@ -219,3 +219,4 @@ public class SalesOrderSystem {
 		System.out.println("Testscript passed");
 	}
 }
+//test scripts works for chrome and edge browsers
