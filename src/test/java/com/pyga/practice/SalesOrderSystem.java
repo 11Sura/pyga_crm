@@ -216,5 +216,6 @@ public class SalesOrderSystem {
 		//logout
 		homePage.signOut(wlib, driver);
         driver.close();
+		System.out.println("Testscript passed");
 	}
 }
