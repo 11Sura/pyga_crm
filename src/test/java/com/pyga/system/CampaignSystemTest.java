@@ -20,7 +20,7 @@ import com.pyga_crm.genericLib.BaseClass;
 @Listeners(com.pyga_crm.genericLib.ListenersImplementation.class)
 public class CampaignSystemTest extends BaseClass {
 
-	@Test(groups = "smokeTest",retryAnalyzer = com.pyga_crm.genericLib.RetryImplementation.class)
+	@Test(groups = "smokeTest")  //for re-trying, give this as @test parameter===> retryAnalyzer = com.pyga_crm.genericLib.RetryImplementation.class
 	public void campaignSystemTest() throws Throwable {
 
 		String E_FILEPATH=clib.getFilePathFromPropertiesFile("testScriptdataFilePath");

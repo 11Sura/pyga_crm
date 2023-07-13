@@ -18,8 +18,8 @@ public class CreateNewProductPage {
 	@FindBy(xpath="//td[contains(text(),'›')]")
 	private WebElement changeMonth;
 	
-	@FindBy(xpath="//td[.='13']")
-	private WebElement changeDate;
+	//@FindBy(xpath="//td[.='23']")
+	//private WebElement changeDate;
 	
 	@FindBy(name="productcategory")
 	private WebElement categoryDropdown;
@@ -68,9 +68,9 @@ public class CreateNewProductPage {
 	}
 
 
-	public WebElement getChangeDate() {
+	/*public WebElement getChangeDate() {
 		return changeDate;
-	}
+	}*/
 
 
 	public WebElement getCategoryDropdown() {
@@ -113,7 +113,7 @@ public class CreateNewProductPage {
 		productName.sendKeys(productsName);
 		saleStart.click();
 		changeMonth.click();
-		changeDate.click();
+		//changeDate.click();
 		categoryDropdown.click();
 		saleEnd.sendKeys("2023-08-21");
 		addVendor.click();
