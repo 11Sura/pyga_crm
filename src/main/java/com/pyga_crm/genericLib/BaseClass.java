@@ -68,6 +68,9 @@ public class BaseClass {
 	
 	@BeforeMethod(groups = {"smokeTest","regressionTest"})
 	public void loginToApplication() throws Throwable {
+		
+		Thread.sleep(7000);
+		
 		String URL = clib.getDataFromProperties(FILEPATH, "url");
 String USERNAME = clib.getDataFromProperties(FILEPATH, "username");
 String PASSWORD = clib.getDataFromProperties(FILEPATH, "password");
