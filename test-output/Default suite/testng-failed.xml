@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pyga.system.SalesOrdersSystemTest">
+      <class name="com.pyga.system.CampaignSystemTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="salesOrdersSystemTest"/>
+          <include name="campaignSystemTest"/>
           <include name="closeDatabase"/>
           <include name="connectToDatabase"/>
           <include name="closeBrowser"/>
           <include name="loginToApplication"/>
           <include name="logoutFromApplication"/>
         </methods>
-      </class> <!-- com.pyga.system.SalesOrdersSystemTest -->
+      </class> <!-- com.pyga.system.CampaignSystemTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
