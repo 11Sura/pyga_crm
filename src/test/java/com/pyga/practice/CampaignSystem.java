@@ -162,7 +162,7 @@ public class CampaignSystem {
 		CampaignInformationPage campaignInformation =new CampaignInformationPage(driver);
 		campaignInformation.verify(camp);
 		
-		//logout of the application
+		//logout of the app
 		homePage.signOut(wlib, driver);
 		
 		//close the browser
