@@ -1,12 +1,18 @@
 package com.pyga_crm.genericLib;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -170,5 +176,21 @@ public class WebActionsLib {
 		   Actions act = new Actions(driver);
 		   act.sendKeys(Keys.ENTER).perform();
 	   }
+	 
+	 public static String takeScreenshot(String screenShot) {
+		
+			//LocalDateTime localDT = LocalDateTime.now();
+			//String dateTime = localDT.toString().replace(" ","_").replace(":","_");
+			TakesScreenshot ts=(TakesScreenshot) BaseClass.sDriver;
+			File src = ts.getScreenshotAs(OutputType.FILE);
+			File dest= new File("./ScreenShots/"+screenShot+".png");
+			try {
+				FileUtils.copyFile(src, dest);
+			} catch (IOException e) {
+				e.getMessage();
+				e.printStackTrace();
+			}
+			return screenShot;
+	 }
 
 }

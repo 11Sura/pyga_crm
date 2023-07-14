@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="Test(failed)">
+<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.pyga.system.SalesOrdersSystemTest">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="salesOrdersSystemTest"/>
-          <include name="closeDatabase"/>
-          <include name="closeBrowser"/>
-          <include name="connectToDatabase"/>
-          <include name="loginToApplication"/>
-          <include name="logoutFromApplication"/>
-        </methods>
-      </class> <!-- com.pyga.system.SalesOrdersSystemTest -->
       <class name="com.pyga.system.CampaignSystemTest">
         <methods>
           <include name="launchBrowser"/>
@@ -47,6 +36,17 @@
           <include name="logoutFromApplication"/>
         </methods>
       </class> <!-- com.pyga.system.OpportunitySystemTest -->
+      <class name="com.pyga.system.SalesOrdersSystemTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="salesOrdersSystemTest"/>
+          <include name="closeDatabase"/>
+          <include name="closeBrowser"/>
+          <include name="connectToDatabase"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.pyga.system.SalesOrdersSystemTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
